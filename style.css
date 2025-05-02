@@ -1,0 +1,153 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Open Sans;
+    text-decoration: none;
+    list-style: none;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.header{
+  height: 100vh;
+  
+    background: url(1\ \(1\).png) no-repeat center/cover
+  
+}
+.imgmi{
+    margin-top: 20px;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav__list{
+    display: flex;
+    gap: 32px;
+}
+.nav__link{
+    color: #FFFF;
+    font-size: 12px;
+    font-weight: 600;
+    transition: 0.5s;
+}
+.nav__link:hover{
+    color: #F57520;
+}
+.nav__img{
+    display: flex;
+   gap: 35px;
+}
+.header__content{
+margin-top: 80px;
+}
+.header__content h1{
+    width: 679px;
+    color: #FFFF;
+    font-family: Open Sans;
+font-weight: 700;
+font-size: 96px;
+line-height: 123%;
+letter-spacing: 2%;
+
+
+}
+.header__content p{
+    color: #FFFF;
+    width: 645px;
+    font-family: Open Sans;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 160%;
+    letter-spacing: 1%;
+    margin-top: 48px;
+    margin-bottom: 40px;
+
+}
+.header__content button{
+    width: 180px;
+height: 52px;
+gap: 10px;
+border-radius: 10px;
+padding-top: 16px;
+padding-right: 80px;
+padding-bottom: 16px;
+padding-left: 54px;
+background-color: #F57520;
+color: #FFFF;
+
+
+}
+.header__content button:hover{
+ background-color: blue;
+    color: bisque;
+    transition: 0.6s;
+}
+.bg{
+   
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 4fr));
+    gap: 60px;
+}
+.headertwo{
+  background-color: grey;
+}
+h1{
+    font-family: Open Sans;
+font-weight: 800;
+font-size: 64px;
+line-height: 123%;
+letter-spacing: 5%;
+text-align: center;
+margin-bottom: 100px;
+}
+
+.box{
+flex-wrap: wrap;
+
+background-color: #101010;
+color: #FFFF;
+width: 400px;
+height: 462px;
+top: 1160px;
+left: 760px;
+border-radius: 13px;
+margin-bottom: 90px;
+
+
+}
+.box:hover{
+    background-color: #F57520;
+    color: black;
+    transition: 0.7s;
+}
+.box p{
+  margin-top: 25px;
+    font-family: Open Sans;
+font-weight: 400;
+font-size: 18px;
+line-height: 160%;
+letter-spacing: 1%;
+
+
+width: 315px;
+height: 87px;
+top: 295px;
+left: 27px;
+margin-left: 19px;
+}
+.box h3{
+    font-family: Open Sans;
+font-weight: 800;
+font-size: 16px;
+line-height: 160%;
+letter-spacing: 0%;
+margin-top: 10px;
+margin-left: 19px;
+
+}
+
+
